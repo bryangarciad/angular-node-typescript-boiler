@@ -9,12 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    WelcomeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),

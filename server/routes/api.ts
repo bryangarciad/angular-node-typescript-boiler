@@ -9,7 +9,6 @@ class Api {
     this.mountRoutes();
   }
 
-  // Access this API route using {GET} localhost:3017/api/hello 
   private mountRoutes (): void {
     const router = express.Router();
     router.get('/hello', (req, res) => {
