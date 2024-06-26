@@ -14,6 +14,7 @@ import { SharedModule } from './../shared/shared.module';
   ],
   declarations: [
     FeatureComponent
+
   ]
 })
 export class FeatureModule { }
